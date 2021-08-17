@@ -3,6 +3,7 @@
 	--header-color:  #000;
 	--h1-color:  #393c41;
 	--h2-color:  #6e7378;
+	--bg-color:  rgba(211,211,211, 1);
 	--btn-dark-bg:  rgba(23, 26, 32, 0.8);
 	--btn-light-bg:  rgba(255, 255, 255, 0.65);
 	--btn-dark-color: #fff;
@@ -50,7 +51,7 @@ header .middle ul{
 }
 
 header .middle li{
-	margin: 0 10px;
+	padding: 10px;
 }
 
 header .middle a{
@@ -64,7 +65,7 @@ header .rightSide ul{
 }
 
 header .rightSide li{
-	margin: 0 10px;
+	padding: 10px;
 
 }
 
@@ -85,6 +86,11 @@ header .menu--icon{
 header .menu--icon div{
 	height: 2px;
 	background-color: var(--header-color);
+}
+
+header li:hover {
+	border-radius: 20px;
+	background-color: var(--bg-color);
 }
 
 /* MAIN */
